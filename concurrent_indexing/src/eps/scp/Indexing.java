@@ -6,7 +6,7 @@ public class Indexing {
     {
         InvertedIndex hash;
 
-        if (args.length <2 || args.length>4)
+        if (args.length <1 || args.length>4)
             System.err.println("Erro in Parameters. Usage: Indexing <TextFile> [<Key_Size>] [<Index_Directory>]");
         if (args.length < 2)
             hash = new InvertedIndex(args[0]);
